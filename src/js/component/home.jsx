@@ -28,7 +28,7 @@ const cardsData = [
 
 const Home = () => {
 	return (
-		<div>
+		<div className="container-fluid m-0 p-0">
 			<Navbar 
 				title={"Start Bootstrap"}
 				firstNavbarItem={"Home"}
@@ -36,7 +36,7 @@ const Home = () => {
 				thirdNavbarItem={"Services"}
 				fourthNavbarItem={"Contact"}
 				/>
-			<div className="container m-2 m-lg-5">
+			<div className="d-flex flex-column justify-content-center align-items-center min-vh-100 m-2 m-lg-5">
 				<Jumbotron
 					title={"A Warm Welcome!"}
 					description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum commodi enim sapiente non quibusdam dolorem dolore eius ab similique possimus deserunt rerum, deleniti ipsam quos consequatur officiis, maxime quia nisi."}
